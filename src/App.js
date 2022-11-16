@@ -23,7 +23,7 @@ function App() {
       userdata.timestamp = new Date().toUTCString()
       // console.log(userdata);
 
-      axios.post("hhttps://otpassessmentbackend.herokuapp.com/send", {
+      axios.post("https://otpassessmentbackend.herokuapp.com/send", {
         userdata
       })
         .then(function (response) {
